@@ -17,24 +17,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      initialRoute: '/login',
+      initialRoute: '/chat',
       routes: appRoutes,
     );
   }
 }
-
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Inicio'),
-      ),
-      body: const Center(
-        child: Text('¡Hola, Mundo!'),
-      ),
-    );
-  }
-}
+ 

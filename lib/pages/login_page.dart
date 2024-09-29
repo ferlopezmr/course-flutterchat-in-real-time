@@ -1,8 +1,7 @@
 import 'package:chat/utils/colors.dart';
 import 'package:chat/widgets/btn/primary_btn.dart';
 import 'package:chat/widgets/custom_text_field.dart';
-import 'package:chat/widgets/logo_area.dart';
-import 'package:chat/widgets/register_text_button.dart'; 
+import 'package:chat/widgets/logo_area.dart'; 
 import 'package:flutter/material.dart';
 
 import '../widgets/label_text_button.dart';
@@ -53,8 +52,8 @@ class _LoginPageState extends State<LoginPage> {
  
 
   Future<void> _login() async{
-    print(emailController.text);
-    print(passwordController.text);
+    /* print(emailController.text);
+    print(passwordController.text); */
   }
 
   Widget _formArea(){
